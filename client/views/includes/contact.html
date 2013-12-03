@@ -1,0 +1,12 @@
+<template name="contact">
+
+<div class="panel">
+  {{> errors}}
+  <form id="demandeForm">
+    <input type="text" placeholder="taper votre email" name="inputEmail">
+    <textarea placeholder="taper votre demande" name="inputContent"></textarea>
+    <button class="button large" id="sendButton">Envoyer votre demande (nous n'envoyons pas de spams)</button>
+  </form>
+</div>
+
+</template>

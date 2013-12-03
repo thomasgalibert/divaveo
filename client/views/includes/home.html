@@ -1,0 +1,104 @@
+<template name="home">
+ 
+<div class="intro panel">
+  <a name="accueil"></a>
+  <h4 data-magellan-destination="accueil">Divaveo est une société qui réalise des logiciels et des sites internets qui permettent à ses clients de gérer plus facilement leur activité.</h4>
+
+  <blockquote>
+    Ce que l'on conçoit bien s'énonce clairement,
+    Et les mots pour le dire arrivent aisément.
+    Hâtez-vous lentement, et sans perdre courage,
+    Vingt fois sur le métier remettez votre ouvrage,
+    Polissez-le sans cesse, et le repolissez,
+    Ajoutez quelquefois, et souvent effacez.
+    <cite>Nicolas Boileau, 1674</cite>
+  </blockquote>
+
+</div>
+
+<ul class="intro-orbit" data-orbit>
+  <li>
+    <img src="images/ban-1.jpg" alt="slide 1" />
+    <div class="orbit-caption">
+      Nous développons nos produits de A à Z en fonction des besoins des clients. Ici, pas de CMS inadapté ou de site préconçu dont vous ne changeriez que le contenu. Tout est fait sur-mesure. 
+    </div>
+  </li>
+  <li>
+    <img src="images/ban-2.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Notre méthode de travail respecte l'adage 'release early, release often' (mettre en ligne rapidement et souvent). Ainsi nous produisons rapidement un prototype en ligne afin d'apporter des modifications petit à petit.
+    </div>
+  </li>
+  <li>
+    <img src="images/ban-3.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Nous utilisons les outils les mieux adatpés aux projets que l'on nous soumet. Ce sont principalement les frameworks Ruby On Rails et Meteor, et les bases de données PostgreSQL et MongoDB.
+    </div>
+  </li>
+</ul>
+
+<hr>
+<!-- Three-up Content Blocks -->
+<a name="reals"></a>
+<h3 class="text-center" data-magellan-destination="reals">Dernières réalisations</h3>
+
+<hr>
+
+<div class="row">
+  <div class="large-4 columns">
+    <img class="th radius" src="images/compta.jpg" />
+    <h4><a href="#">Logiciel de comptabilité</a></h4>
+    <p>Logiciel de comptabilité de la société Demerys réalisé exclusivement en javascript avec le framework Meteor. Il utilise une BDD Mongodb et permet en une seule page de gérer tous les aspects de la facturation de la société.</p>
+  </div>
+
+  <div class="large-4 columns">
+    <img class="th radius" src="images/mif.jpg" />
+    <h4><a href="http://mifexpo.fr" target="_blank">Site internet MIF EXPO</a></h4>
+    <p>Site internet du premier Salon consacré exclusivement aux produits Made in France. L'interface a été élaborée afin de permettre au client de gérer les visiteurs et les exposants.</p>
+  </div>
+
+  <div class="large-4 columns">
+    <img class="th radius" src="images/innovosud.jpg" />
+    <h4><a href="http://www.innovosud.fr" target="_blank">Site internet Innovosud</a></h4>
+    <p>Site internet de la pépinière d'entreprise Innovosud à Béziers. L'interface en ligne permet au client de gérer les entreprises adherentes et d'agglomérer dans la page d'accueil tous ses flux d'actualité. </p>
+  </div>
+
+</div>
+
+<hr>
+<a name="method"></a>
+<h3 class="text-center" data-magellan-destination="method">Notre méthode</h3>
+<hr>
+<p>
+  Comme nous construisons des logiciels et des sites sur-mesure, il nous faut préalablement nous entretenir longuement avec nos clients pour définir leurs besoins et les aiguiller sur les meilleurs choix possibles. Il arrive souvent qu'ils s'aperçoivent au cours de la discussion que leur première idée n'état pas forcément adaptée ou réalisable. C'est pourquoi cette phase est indispensable afin de poser les fondations d'un projet pérenne.
+</p>
+
+<p>
+  Nous essayons ensuite de produire rapidement un prototype de la solution envisagée afin de recueillir les premières impressions des utilisateurs. Nous effectuons les modifications et reproposons une version. Ainsi, petit à petit, nous parvenons à un produit fini pleinement satisfaisant. 
+</p>
+
+<p>
+  Enfin, pour l'hébergement final, vous pouvez choisir de nous le confier ou de le gérer personnellement. Si vous choisissez la première option, sachez que nous travaillons avec des solutions variées comme <a href="http://heroku.com" target="_blank">Heroku</a>, <a href="http://cloud66.com" target="_blank">Cloud66</a> ou <a href="http://digitalocean.com" target="_blank">DigitalOcean</a>.
+</p>
+
+<hr>
+<a name="price"></a>
+<h3 class="text-center" data-magellan-destination="price">Prix des prestations</h3>
+<hr>
+
+<p>
+  Même s'il est impossible de donner un prix fixe pour des projets sur-mesure, nous tenons à indiquer ici une fourchette de prix afin que vous sachiez si votre budget est en adéquation avec notre offre de produits. Ainsi, cela va de 3000-5000 euros pour un site de présentation classique de votre société à 20 000-50 000 euros pour un logiciel de gestion sur-mesure de votre activité.
+</p>
+
+<p>
+ Nous avons de l'expérience dans des logiciels de gestion de la facturation, de gestion d'établissement médicaux, de gestions de cabinet d'avocat et de professions libérales.
+</p>
+
+<hr>
+<a name="contact"></a>
+<h3 class="text-center" data-magellan-destination="contact">Contactez-nous</h3>
+<hr>
+{{> contact}}
+{{> mentions}}
+
+</template>

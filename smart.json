@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "router": {},
+    "foundation-5": {
+      "git": "https://github.com/ConnorAtherton/meteor-foundation-5.git"
+    },
+    "spin": {},
+    "scss": {}
+  }
+}
